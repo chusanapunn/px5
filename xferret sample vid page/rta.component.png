@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <title>404 - Page Not Found</title>
+    <meta name="RATING" content="RTA-5042-1996-1400-1577-RTA" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="SHORTCUT ICON" href="https://static-nss.xhcdn.com/images/favicon/favicon.ico">
+    <link href="https://static-nss.xhcdn.com/xh-desktop/css/errors500.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="main-wrap">
+    <a class="logo" href="https://xhamster.com">
+        <img alt="xHamster Logo" src="https://static-nss.xhcdn.com/xh-desktop/images/logo/logo.svg"/>
+    </a>
+    <div class="error">
+        <img class="error-img" src="https://static-nss.xhcdn.com/xh-desktop/images/errors/404.png" srcset="https://static-nss.xhcdn.com/xh-desktop/images/errors/404@2x.png 2x, https://static-nss.xhcdn.com/xh-desktop/images/errors/404@3x.png 3x"/>
+        <div class="error-text">Page Not Found</div>
+        <a class="button" href="https://xhamster.com">Back to Homepage</a>
+    </div>
+</div>
+</body>
+</html>
