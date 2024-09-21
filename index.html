@@ -21,58 +21,79 @@
         </div>
     </header>
 
-    <nav>
-        <div class="nav-left">
-            <ul>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Petstars</a></li>
-                <li><a href="#">Creators</a></li>
-                <li><a href="#">Channels</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Merchandises</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Support Us</a></li>
+     <!-- Top 1 Container (nav-left and nav-right) -->
+     <div id="container_1">
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Petstars</a></li>
+                    <li><a href="#">Creators</a></li>
+                    <li><a href="#">Channels</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Merchandises</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Support Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="upload-button">
+                    <i class="cloud-upload" aria-hidden="true"></i>
+                    Upload
+                </button>
+            </div>
+        </nav>
+    </div>
+<!-- Top 2 Container (for ads below the search bar) -->
+        <div id="container_2">
+            <div class="ad-space">
+                <p>AD goes here</p>
+            </div>
+        </div>
+    <!-- Sidebar Section -->
+    <aside id="sidebar">
+        <div class="filter-container">
+            <h3>Filter by Category</h3>
+            <input type="text" id="categorySearch" placeholder="Search categories...">
+            <ul class="filter-options">
+                <li><a href="#">Ferret</a></li>
+                <li><a href="#">Hamster</a></li>
+                <li><a href="#">Cat</a></li>
+                <li><a href="#">Dog</a></li>
+                <li><a href="#">Parrot</a></li>
+                <li><a href="#">Bird</a></li>
+                <li><a href="#">Capybara</a></li>
             </ul>
         </div>
-        <div class="nav-right">
-            <button class="upload-button">
-                <i class="fa fa-cloud-upload" aria-hidden="true"></i>
-                Upload
-            </button>
-        </div>
-    </nav>
-
+    </aside>
+    
     <section id="trending">
         <h2>Trending Free Pets Videos</h2>
         <div class="ad">AD goes here</div>
-        <div class="ad">AD goes here</div>
     </section>
 
-    <section id="pet-categories">
-        <ul>
-            <li><a href="#">Ferret</a></li>
-            <li><a href="#">Hamster</a></li>
-            <li><a href="#">Cat</a></li>
-            <li><a href="#">Dog</a></li>
-            <li><a href="#">Parrot</a></li>
-            <li><a href="#">Bird</a></li>
-            <li><a href="#">Capybara</a></li>
-        </ul>
-    </section>
-
-    <section id="titles">
-        <div class="title">Title 1: Small Details</div>
-        <div class="title">Title 2: Small Details</div>
+    <section id="video_content">
+        <div class="video">
+            <img src="thumbnail.jpg" alt="Video Thumbnail">
+            <div class="video-details">
+                <p class="video-title">Title 1: Small Details</p>
+                <p class="video-author">by Author 1</p>
+                <p class="video-length">10:05</p>
+            </div>
+        </div>
+        <div class="video">
+            <img src="thumbnail.jpg" alt="Video Thumbnail">
+            <div class="video-details">
+                <p class="video-title">Title 2: Small Details</p>
+                <p class="video-author">by Author 2</p>
+                <p class="video-length">12:30</p>
+            </div>
+        </div>
+        <!-- Add more video sections as needed -->
         <div class="title">Title 3: Small Details</div>
         <div class="title">Title 4: Small Details</div>
         <div class="title">Title 5: Small Details</div>
-        <div class="title">Title 6: Small Details</div>
-        <div class="title">Title 7: Small Details</div>
-        <div class="title">Title 8: Small Details</div>
-        <div class="title">Title 9: Small Details</div>
-        <div class="title">Title 10: Small Details</div>
-        <div class="title">Title 11: Small Details</div>
     </section>
 
 </body>
